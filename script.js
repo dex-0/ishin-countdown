@@ -3,9 +3,10 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-//Ishin-release-date
+//ishin-release-date
 const newYears = "21 Feb 2023";
 
+//countdown
 function countdown() {
     const ishinDate = new Date(newYears);
     const currentDate = new Date();
@@ -23,11 +24,13 @@ function countdown() {
     secondsEl.innerHTML = formatTime(seconds);
 }
 
+//formatting single-digit time
 function formatTime(time) {
     return time < 10 ? `0${time}` : time;
 }
 
-// initial call
+//initial call
 countdown();
 
+//countdown-refresh
 setInterval(countdown, 1000);
