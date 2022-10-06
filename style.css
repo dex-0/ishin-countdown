@@ -7,6 +7,7 @@
 body{
     background-image: url("./isshin.jpg");
     min-height: 100vh;
+    min-width: fit-content;
     background-size: cover;
     background-position: center center;
     display: flex;
