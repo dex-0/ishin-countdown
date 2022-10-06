@@ -18,6 +18,13 @@ function countdown() {
     const mins = Math.floor(totalSeconds / 60) % 60;
     const seconds = Math.floor(totalSeconds) % 60;
 
+    //logging
+    console.log(days);
+    console.log(hours);
+    console.log(mins);
+    console.log(seconds);
+
+    //manipulating display
     daysEl.innerHTML = days;
     hoursEl.innerHTML = formatTime(hours);
     minsEl.innerHTML = formatTime(mins);
