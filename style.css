@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ 
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./isshin.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 6rem;
+    font-weight: bold;
+    margin-top: -20rem;
+    color: antiquewhite;
+}
+
+.countdown-container{
+    display:flex;
+    color: antiquewhite;
+}
+
+.big-text{
+    font-size: 6rem;
+    margin-top: -2rem;
+    line-height: 4rem;
+    margin: 0 4rem;
+}
+
+.countdown-el{
+    text-align: left;
+}
+
+.countdown-el span{
+    font-size: 1.2rem;
+}
+
+
